@@ -7,6 +7,14 @@
  * user guide available at http://gradle.org/docs/2.2.1/userguide/tutorial_java_projects.html
  */
 
+plugins {
+    id 'edu.sc.seis.launch4j' version '2.5.4'
+}
+
+launch4j {
+    mainClassName = 'SwingDemo'
+}
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 
